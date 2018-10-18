@@ -9,54 +9,16 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1374155343732270}
+  m_RootGameObject: {fileID: 1852301987510946}
   m_IsPrefabAsset: 1
---- !u!1 &1236505517114470
+--- !u!1 &1134231697558700
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4683363498880032}
-  m_Layer: 8
-  m_Name: CeilingCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1374155343732270
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4177514580981560}
-  - component: {fileID: 212160362333059126}
-  - component: {fileID: 114097668581951012}
-  - component: {fileID: 50622098979343364}
-  - component: {fileID: 61940737160722528}
-  - component: {fileID: 114339344343628866}
-  - component: {fileID: 114614071273988508}
-  - component: {fileID: 58706093199928484}
-  - component: {fileID: 114552263964458974}
-  m_Layer: 8
-  m_Name: Golem
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1595633431471556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4207092188127256}
+  - component: {fileID: 4135278242663926}
   m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
@@ -64,14 +26,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1692234693672950
+--- !u!1 &1314642964874974
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4526661043569666}
+  - component: {fileID: 4397018397022440}
   m_Layer: 8
   m_Name: holdpoint
   m_TagString: Untagged
@@ -79,68 +41,107 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4177514580981560
+--- !u!1 &1852301987510946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4944791184412448}
+  - component: {fileID: 212327637325155428}
+  - component: {fileID: 114991289849198494}
+  - component: {fileID: 50209960442326524}
+  - component: {fileID: 61460101283869722}
+  - component: {fileID: 114865001660756226}
+  - component: {fileID: 114206799414285452}
+  - component: {fileID: 58326875389654020}
+  - component: {fileID: 114160531953539232}
+  - component: {fileID: 114505309672538160}
+  m_Layer: 8
+  m_Name: Golem
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1985613947931984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4149396764106502}
+  m_Layer: 8
+  m_Name: CeilingCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4135278242663926
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374155343732270}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 50.7, y: 3.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4683363498880032}
-  - {fileID: 4207092188127256}
-  - {fileID: 4526661043569666}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4207092188127256
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1595633431471556}
+  m_GameObject: {fileID: 1134231697558700}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -1.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4177514580981560}
+  m_Father: {fileID: 4944791184412448}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4526661043569666
+--- !u!4 &4149396764106502
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1692234693672950}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.49, y: -1.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4177514580981560}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4683363498880032
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1236505517114470}
+  m_GameObject: {fileID: 1985613947931984}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4177514580981560}
+  m_Father: {fileID: 4944791184412448}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50622098979343364
+--- !u!4 &4397018397022440
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314642964874974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.49, y: -1.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4944791184412448}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4944791184412448
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852301987510946}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 50.7, y: 3.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4149396764106502}
+  - {fileID: 4135278242663926}
+  - {fileID: 4397018397022440}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50209960442326524
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374155343732270}
+  m_GameObject: {fileID: 1852301987510946}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -154,12 +155,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &58706093199928484
+--- !u!58 &58326875389654020
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374155343732270}
+  m_GameObject: {fileID: 1852301987510946}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -169,12 +170,12 @@ CircleCollider2D:
   m_Offset: {x: -0.24747086, y: -1.4792393}
   serializedVersion: 2
   m_Radius: 0.50984275
---- !u!61 &61940737160722528
+--- !u!61 &61460101283869722
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374155343732270}
+  m_GameObject: {fileID: 1852301987510946}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -194,12 +195,74 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8583512, y: 1.8372436}
   m_EdgeRadius: 0
---- !u!114 &114097668581951012
+--- !u!114 &114160531953539232
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374155343732270}
+  m_GameObject: {fileID: 1852301987510946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8525d2fe7020a444397f2a53ae733a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTimeBtwAttack: 0
+  attackPos: {fileID: 4397018397022440}
+  whatIsEnemies:
+    serializedVersion: 2
+    m_Bits: 512
+  attackRange: 1
+  damage: 1
+--- !u!114 &114206799414285452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852301987510946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2695b7a9947769e4d81f81f4ba6c4902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DoorTileLos_0: {fileID: 0}
+--- !u!114 &114505309672538160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852301987510946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2ee92fe3761fc4889bcfdf1ed17d3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GolemSpawn: {fileID: 1852301987510946}
+  GolemBody: {fileID: 1060789821568042, guid: c03f2fac4d1be9141a5791aaa7e4aa2b, type: 2}
+  FatmanSpawn: {fileID: 0}
+  FatmanBody: {fileID: 1467801750683214, guid: c25f344b30460fd43bcb4dbc9702b590, type: 2}
+  TallguySpawn: {fileID: 1776134659026996, guid: aa5b56b4a27f785449e33a03668dff2a,
+    type: 2}
+  TallguyBody: {fileID: 0}
+  character: 0
+--- !u!114 &114865001660756226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852301987510946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f07fea9102d1d4db1084828388be19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 114991289849198494}
+  runSpeed: 40
+--- !u!114 &114991289849198494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852301987510946}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69ce3ad990251434e9fa706d68cfe14c, type: 3}
@@ -212,8 +275,8 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 55
-  m_GroundCheck: {fileID: 4207092188127256}
-  m_CeilingCheck: {fileID: 4683363498880032}
+  m_GroundCheck: {fileID: 4135278242663926}
+  m_CeilingCheck: {fileID: 4149396764106502}
   m_CrouchDisableCollider: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
@@ -225,55 +288,12 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114339344343628866
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374155343732270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50f07fea9102d1d4db1084828388be19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 114097668581951012}
-  runSpeed: 40
---- !u!114 &114552263964458974
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374155343732270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8525d2fe7020a444397f2a53ae733a14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startTimeBtwAttack: 0
-  attackPos: {fileID: 0}
-  whatIsEnemies:
-    serializedVersion: 2
-    m_Bits: 512
-  attackRange: 100
-  damage: 1
---- !u!114 &114614071273988508
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374155343732270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2695b7a9947769e4d81f81f4ba6c4902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DoorTileLos_0: {fileID: 0}
---- !u!212 &212160362333059126
+--- !u!212 &212327637325155428
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1374155343732270}
+  m_GameObject: {fileID: 1852301987510946}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

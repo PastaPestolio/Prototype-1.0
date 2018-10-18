@@ -17,9 +17,9 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         //Calculate and store the offset value by getting the distance between the player's position and camera's position.
-        offset1 = transform.position - Golem.transform.position;
-        offset2 = transform.position - Fatman.transform.position;
-        offset3 = transform.position - Tallguy.transform.position;
+        offset1 = new Vector3(0, 0, -10);
+        offset2 = new Vector3(0, 0, -10);
+        offset3 = new Vector3(0, 0, -10);
     }
 
     // LateUpdate is called after Update each frame
